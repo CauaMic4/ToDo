@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Noto Sans", sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap);
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.campos {
+  text-align: center !important;
+
+  #inputTarefa {
+    height: 35px;
+    width: 424px;
+    border: none;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 300;
+    &:focus {
+      background-color: #d7d2cc;
+      border: none !important;
+      border-top: 1px solid !important;
+      border-right: 1px solid !important;
+    }
+  }
+
+  #btn-add {
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    &:hover {
+      background-color: rgba(0, 255, 0, 0.425);
+    }
+  }
+}
