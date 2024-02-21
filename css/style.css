@@ -8,45 +8,52 @@ body {
   background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
 }
 
-h1 {
-  text-align: center;
-  margin-top: 10%;
-}
+main {
+  background-color: #8f8f8f;
+  width: 50%;
+  border-radius: 29px;
+  margin: 0 auto;
+  h1 {
+    text-align: center;
+    margin-top: 10%;
+    padding-top: 5%;
+  }
 
-.campos {
-  text-align: center !important;
+  .campos {
+    text-align: center !important;
+    padding-bottom: 2%;
+    #inputTarefa {
+      height: 35px;
+      width: 424px;
+      border: none;
+      border-bottom: 1px solid;
+      border-left: 1px solid;
+      background-color: transparent;
+      font-size: 16px;
+      font-weight: 300;
+      &:focus {
+        background-color: #d7d2cc;
+        border: none !important;
+        border-top: 1px solid !important;
+        border-right: 1px solid !important;
+      }
+    }
 
-  #inputTarefa {
-    height: 35px;
-    width: 424px;
-    border: none;
-    border-bottom: 1px solid;
-    border-left: 1px solid;
-    background-color: transparent;
-    font-size: 16px;
-    font-weight: 300;
-    &:focus {
-      background-color: #d7d2cc;
-      border: none !important;
-      border-top: 1px solid !important;
-      border-right: 1px solid !important;
+    #btn-add {
+      height: 40px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid;
+      border-left: 1px solid;
+      &:hover {
+        background-color: rgba(0, 255, 0, 0.425);
+      }
     }
   }
 
-  #btn-add {
-    height: 40px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid;
-    border-left: 1px solid;
-    &:hover {
-      background-color: rgba(0, 255, 0, 0.425);
-    }
+  h2 {
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
   }
-}
-
-
-h2 {
-  text-align: center;
-  margin-top: 5%;
 }
